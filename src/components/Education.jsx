@@ -6,7 +6,7 @@ const Education = () => {
       degree: 'Master of Science in Information Technology',
       school: 'University of Cincinnati',
       period: 'Aug 2024 – Dec 2025',
-      gpa: '3.85/4',
+      gpa: '3.87/4',
       location: 'Cincinnati, Ohio, US'
     },
     {

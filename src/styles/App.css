@@ -368,7 +368,27 @@ body {
   font-size: 1.1rem;
   font-weight: 600;
 }
-
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ── GitHub / Repo Button ── */
+.repo-btn {
+  text-decoration: none;
+  color: #2bb5a0;
+  border: 1px solid #2bb5a0;
+  border-radius: 20px;
+  padding: 3px 14px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.repo-btn:hover {
+  background-color: #2bb5a0;
+  color: #ffffff;
+}
 .project-date {
   font-size: 0.8rem;
   color: var(--accent);
@@ -383,7 +403,18 @@ body {
   font-size: 0.9rem;
   line-height: 1.6;
 }
-
+.project-description-button{
+  background: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
 .tech-tags {
   display: flex;
   flex-wrap: wrap;

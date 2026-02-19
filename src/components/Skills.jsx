@@ -4,23 +4,23 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming',
-      items: ['Python, SQL, Java, JavaScript', 'C# (Certified)', 'React, Streamlit, jQuery']
+      items: ['Python', 'SQL', 'JavaScript', 'C#','Java']
     },
     {
-      title: 'Backend & APIs',
-      items: ['Node.js, Express.js', 'J2EE (Jakarta EE)', 'Botpress, REST APIs', 'Docker, Apache Tomcat']
+      title: 'Frameworks',
+      items: ['React', 'Streamlit', 'Node.js', 'Express.js', 'J2EE (Jakarta EE)','PySpark']
     },
     {
-      title: 'Data Engineering',
-      items: ['ETL/ELT Pipelines', 'Databricks, PySpark', 'Data Warehousing (Kimball)', 'Fact/Dimensional Modeling']
+      title: 'Data Engineering & ETL',
+      items: ['IBM Datastage', 'Data Build tool (Dbt)','Azure Data factory','Graph Data Modelling','Slowly.Changing.Dimensions 2 (SCD2)', 'Fact/Dimensional Modeling']
     },
     {
       title: 'Databases',
-      items: ['SQL Server, PostgreSQL', 'Oracle DB, MySQL', 'MongoDB, Azure Synapse']
+      items: ['SQL Server', 'PostgreSQL', 'Oracle DB', 'MySQL', 'MongoDB']
     },
     {
       title: 'Cloud & Tools',
-      items: ['Azure (Certified)', 'AWS (SageMaker, Bedrock)', 'Git, Power Automate']
+      items: ['Azure (Certified)', 'Azure Databricks' , 'Git/Github', 'Docker', 'CI/CD']
     },
     {
       title: 'AI & Automation',

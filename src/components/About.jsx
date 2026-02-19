@@ -7,23 +7,24 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            <strong>Software Engineer & Full Stack Developer</strong> with expertise in building scalable systems, 
-            data pipelines, and modern web applications. Currently at the University of Cincinnati IT Analytics Center, 
-            building full-stack chatbot-integrated platforms.
+            <strong>Software Engineer </strong> with expertise in building
+            data pipelines and web applications. Currently Volunteering at the University of Cincinnati IT Analytics Center, 
+            building Web Platform and Data systems for External Clients.Previously, worked for wellsfargo, building data systems
+            to support business teams that deal with supply chain data of wellsfargo.
           </p>
           <p>
-            My approach to engineering is defined by <strong>iterative learning</strong>—I break down complex problems, 
-            experiment hands-on, and refine until achieving system-level clarity. Whether debugging React components, 
-            optimizing backend queries, or understanding Spark shuffles, I stay curious and push beyond comfort zones.
+            My journey to software engineering is defined by <strong>iterative hands-on learning</strong>—I try to break down complex problems 
+            into fundamental components and refine until achieving functional-level clarity. Whether debugging React components, 
+            optimizing backend queries, or understanding Spark shuffles, I try to stay curious and make sure I don't get complacent.
           </p>
           <p>
-            From ETL pipeline optimization at Wells Fargo (processing 10M+ records) to building AI-powered applications, 
+            From ETL pipeline optimization at Wells Fargo (processing 10M+ records) to building AI-centered applications, 
             I value <strong>intention, structure, and continuous improvement</strong>.
           </p>
         </div>
         <div className="about-visual">
           <p className="visual-emoji">🛠️</p>
-          <p className="visual-text">Building Systems That Work</p>
+          <p className="visual-text">Building Systems That Matter and Make Sense</p>
         </div>
       </div>
     </section>
