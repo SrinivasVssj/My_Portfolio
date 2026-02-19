@@ -617,6 +617,23 @@ body {
   .skill-card {
     padding: 15px;
   }
+.hero-location {
+    font-size: 0.75rem;
+    margin-top: 8px;
+    opacity: 0.9;
+  }
+  .contact-item {
+      display: inline-flex;   /* inline-flex instead of flex */
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1;  
+    }
+    .contact-item svg {
+      vertical-align: middle;
+  margin-bottom: 2px; 
+}
 
   .project-card {
     padding: 15px;

@@ -4,13 +4,17 @@ const Experience = () => {
   const experiences = [
     {
       date: 'Oct 2025 – Present',
-      title: 'Software Engineer (Full Stack Developer)',
+      title: 'Software Engineer',
       company: 'Information Technology Analytics Center – University of Cincinnati',
       description: [
-        'Building full-stack website with integrated Botpress chatbot services for client tracking and document submission',
+        'Currently building an end-to-end data pipelines on Microsft Azure using Azure Data Factory, Azure Databricks, Azure SQL Database, and ADLS Gen2',
+        'Supporting ingestion and organization of Electronic Medical Records (EMR), claims, ICD, and CPT datasets',
+        'Using PySpark framework with notebooks in Azure Databricks to standardize, cleanse, and join EMR and claims data',
+        'Visualizing star-schema data models with fact and dimension tables (e.g., claims, accounts receivable, patient, provider, payer, date)',
+        'Maintaining full-stack website with integrated chatbot services for client tracking and document submission',
         'Designed responsive UI with React.js, HTML, and Tailwind CSS tested across multiple screen sizes',
-        'Developed backend services with Node.js, Express, and PostgreSQL for secure data management',
-        'Extended chatbot with AWS Bedrock LLM capabilities for personalized user experiences'
+        'Developed backend services with Node.js, Express, Sequelize ORM and PostgreSQL for secure data management',
+        'Extended chatbot with LLM capabilities AWS Bedrock service and Meta Llama 3.2 model for enhanced user interactions'
       ]
     },
     {
@@ -18,10 +22,12 @@ const Experience = () => {
       title: 'Software Engineer (ETL Developer)',
       company: 'Wells Fargo – Hyderabad, India',
       description: [
-        'Designed and maintained ETL pipelines processing 10M+ supply-chain records from APIs, flat files, and databases',
-        'Implemented Kimball data warehouse with Star Schema and SCD Type 2 for historical tracking',
-        'Migrated 50+ Oracle database objects to SQL Server, improving query performance by 15%',
-        'Orchestrated workflows with Autosys and PowerShell; supported Power BI analytics teams'
+        'Designed and maintained ETL pipelines in Microsoft SQL Server processing 10M+ supply-chain records from APIs, flat files, and databases',
+        'Implemented Kimball data warehousing with Star Schema and SCD Type 2 for historical tracking',
+        'Migrated 50+ Oracle database objects with dependencies to SQL Server, improving query and ingestion performance',
+        'Transformed legacy ETL (IBM DataStage) Codebase and replicated business logic onto Microsoft SQL Server ETL pipelines',
+        'Supported IBM DataStage during sunset phase by maintaining existing pipelines and ensuring data integrity during transition',
+        'Supported business end analytics teams by preparing structured and clean datasets for Power BI dashboards and KPI monitoring'
       ]
     }
   ];
