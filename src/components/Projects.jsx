@@ -2,6 +2,15 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
+     {
+      title: 'Multi Agentic E-Commerce Chatbot',
+      date: 'Feb 2026 - Present',
+      Label: 'Demo Video',
+      Link: 'https://youtu.be/kdXKU0opF9o',
+      description: 'Multi Agentic AI E-Commerce chatbot with specialized agents for product recommendation, and Cart Handling using Claude 4.5 Sonnet Model and AWS Bedrock Service.',
+      tech: ['Claude 4.5 Sonnet', 'AWS Bedrock', 'JSON', 'AWS Lambda functions', 'Functional Chatbot Testing']
+      
+    },
     {
       title: 'E-commerce project using Dbt',
       date: 'Jan 2026 – Feb 2026',

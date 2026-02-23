@@ -11,20 +11,28 @@ const Skills = () => {
       items: ['React', 'Streamlit', 'Node.js', 'Express.js', 'J2EE (Jakarta EE)','PySpark']
     },
     {
-      title: 'Data Engineering & ETL',
-      items: ['IBM Datastage', 'Data Build tool (Dbt)','Azure Data factory','Graph Data Modelling','Slowly.Changing.Dimensions 2 (SCD2)', 'Fact/Dimensional Modeling']
+      title: 'Data Engineering',
+      items: ['Data Ingestion Handling','Data Quality Management','Graph Data Modelling','Slowly.Changing.Dimensions 2 (SCD2)', 'Fact/Dimensional Modeling']
+    },
+    {
+      title: 'Pipeline Design',
+      items: ['IBM Datastage','Azure Data factory', 'Data Build tool (Dbt)']
     },
     {
       title: 'Databases',
       items: ['SQL Server', 'PostgreSQL', 'Oracle DB', 'MySQL', 'MongoDB']
     },
     {
-      title: 'Cloud & Tools',
-      items: ['Azure (Certified)', 'Azure Databricks' , 'Git/Github', 'Docker', 'CI/CD']
+      title: 'Cloud Expertise',
+      items: ['Azure (Certified)', 'AWS Bedrock','AWS Knowledge Bases','AWS Sagemaker','Azure Databricks']
     },
     {
-      title: 'AI & Automation',
-      items: ['Agentic AI, LLMs', 'OpenAI Swarm, Llama 3.2', 'Automation & Orchestration']
+      title: 'AI & Agentic Design',
+      items: ['Agentic AI Design', 'LLM Hitting (Claude 4.5 Sonnet, Meta Llama 3.2)','Multi Agentic Orchestration','Prompt Design and Engineering for LLMs']
+    },
+    {
+      title: 'Automation & Tools',
+      items: ['Power Automate','Autosys','Google Apps Script','Git/Github', 'Docker', 'CI/CD Design' ]
     }
   ];
 
