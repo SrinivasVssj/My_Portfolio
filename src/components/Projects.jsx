@@ -21,6 +21,15 @@ const Projects = () => {
       
     },
     {
+      title: 'Library Stock Prediction',
+      date: 'Sep 2025 - Dec 2025',
+      Label: 'GitHub Repo',
+      Link: 'https://github.com/SrinivasVssj/Library_checkout_analysis_using_ml.git',
+      description: 'Machine learning model to predict library book checkouts using historical checkout data and preprocessed features.',
+      tech: ['Python', 'Pytorch', 'Google CoLab','Gradient Boosting', 'Data Analysis']
+      
+    },
+    {
       title: 'Agentic News Assistant',
       date: 'Jan 2025 – Mar 2025',
       Label: 'GitHub Repo',
