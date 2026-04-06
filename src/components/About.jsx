@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-text">
           <p>
             <strong>Software Engineer </strong> with expertise in building
-            data pipelines and web applications. Currently Volunteering at the University of Cincinnati IT Analytics Center, 
+            data pipelines and web applications. Currently contracting at the University of Cincinnati IT Analytics Center, 
             building Web Platform and Data systems for External Clients.Previously, worked for wellsfargo, building data systems
             to support business teams that deal with supply chain data of wellsfargo.
           </p>
