@@ -3,13 +3,14 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      date: 'Oct 2025 – Present',
-      title: 'Software Engineer',
+      date: 'Feb 2025 – Present',
+      title: 'Developer',
       company: 'Information Technology Analytics Center – University of Cincinnati',
       description: [
-        'Currently building an end-to-end data pipelines on Microsft Azure using Azure Data Factory, Azure Databricks, Azure SQL Database, and ADLS Gen2',
-        'Supporting ingestion and organization of Electronic Medical Records (EMR), claims, ICD, and CPT datasets',
-        'Using PySpark framework with notebooks in Azure Databricks to standardize, cleanse, and join EMR and claims data',
+        'Pipeline: Built an end-to-end ADF + Databricks + ADLS Gen2 pipeline ingesting EMR, claims, ICD, and CPT data into a medallion architecture for healthcare RCM analytics',
+        'Transformation: Developed PySpark notebooks to cleanse, standardize, and join EMR and claims data with NPI/ICD/CPT references, producing analytics-ready Delta tables for AR and claims reporting.',
+        'Modeling: Designed star-schema fact/dimension models (claims, AR, patient, provider, payer, date) to calculate KPIs — AR aging, average days in AR, and net collection rate.',
+        'Data Quality: Implemented incremental loads with quarantine logic, SCD Type 2, and cross-layer AR/claim reconciliation checks to ensure data integrity before BI consumption.',
         'Visualizing star-schema data models with fact and dimension tables (e.g., claims, accounts receivable, patient, provider, payer, date)',
         'Maintaining full-stack website with integrated chatbot services for client tracking and document submission',
         'Designed responsive UI with React.js, HTML, and Tailwind CSS tested across multiple screen sizes',
@@ -20,7 +21,7 @@ const Experience = () => {
     {
       date: 'Aug 2022 – Aug 2024',
       title: 'Software Engineer (ETL Developer)',
-      company: 'Wells Fargo – Hyderabad, India',
+      company: 'Wells Fargo',
       description: [
         'Designed and maintained ETL pipelines in Microsoft SQL Server processing 10M+ supply-chain records from APIs, flat files, and databases',
         'Implemented Kimball data warehousing with Star Schema and SCD Type 2 for historical tracking',
