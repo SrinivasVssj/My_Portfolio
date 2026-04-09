@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdEmail, MdLocationOn } from 'react-icons/md';
-import { FaPhone, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaPhone, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 const Hero = () => {
   return (
     <section className="hero">
@@ -30,9 +30,16 @@ const Hero = () => {
           </div>
           <span className="divider">|</span>
           <div className="contact-item">
+            <FaYoutube  size={16} style={{ verticalAlign: 'middle', marginBottom: '3px',marginRight: '6px' }} />
+            
+            <a href="https://www.youtube.com/@Srinivas-r9s" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+          <span className="divider">|</span>
+          <div className="contact-item">
         <MdLocationOn  size={16} style={{ verticalAlign: 'middle', marginBottom: '3px', marginRight: '6px' }} />
           <span ><strong>Cincinnati,OH</strong></span></div>
         </div>
+        
       </div>
     </section>
   );
