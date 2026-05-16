@@ -3,11 +3,29 @@ import React from 'react';
 const Projects = () => {
   const projects = [
      {
+      title: 'Automation Agent for Indeed Portal',
+      date: 'Mar 2026 - Apr 2026',
+      Label: null,
+      Link: null,
+      description: 'An Automation Agent built using Python Selenium framework that uploads resume in indeed portal daily, scheduled on Github Actions',
+      tech: ['Python', 'Selenium Framework', 'Github Actions', 'Web Automation', 'session handling']
+      
+    },
+    {
+      title: 'Automation Agent for Dice Portal',
+      date: 'Mar 2026 - Apr 2026',
+      Label: null,
+      Link: null,
+      description: 'An Automation Agent built using Python Playwright framework that uploads resume in dice portal daily, scheduled on Github Actions',
+      tech: ['Python', 'Playwright Framework', 'Github Actions', 'Web Automation']
+      
+    },
+     {
       title: 'Agentic AI on AWS',
-      date: 'Feb 2026 - Present',
+      date: 'Feb 2026 - Apr 2026',
       Label: 'PlayList Link',
       Link: 'https://youtu.be/kdXKU0opF9o?si=3A0r4Kwsf02CcI_h',
-      description: 'Building Agentic AI applications using AWS Bedrock',
+      description: 'Building Agentic AI applications using AWS Serices by learning from a Bootcamp held by a NGO called Become a Solutions Architect run by Senior  Amazon Employees',
       tech: ['Claude 4.5 Sonnet', 'AWS Bedrock', 'JSON', 'AWS Lambda functions', 'Functional Chatbot Testing']
       
     },
@@ -53,7 +71,8 @@ const Projects = () => {
       Link: 'https://github.com/SrinivasVssj/CodenowMiniproject.git',
       description: 'Campus cafeteria web platform with supplier, inventory, and goods tracking. Reduced manual supply chain tracking tasks with secure ACID-compliant transactions.',
       tech: ['Java', 'J2EE', 'JSP', 'MySQL', 'Apache Tomcat']
-    }
+    },
+    
   ];
 
   return (

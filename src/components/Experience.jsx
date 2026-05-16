@@ -4,7 +4,7 @@ const Experience = () => {
   const experiences = [
     {
       date: 'Feb 2025 – Present',
-      title: 'Developer',
+      title: 'Software Engineer',
       company: 'Information Technology Analytics Center – University of Cincinnati',
       description: [
         'Pipeline: Built an end-to-end ADF + Databricks + ADLS Gen2 pipeline ingesting EMR, claims, ICD, and CPT data into a medallion architecture for healthcare RCM analytics',
@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       date: 'Aug 2022 – Aug 2024',
-      title: 'Software Engineer (ETL Developer)',
+      title: 'Software Engineer (Data Engineering Focus)',
       company: 'Wells Fargo',
       description: [
         'Designed and maintained ETL pipelines in Microsoft SQL Server processing 10M+ supply-chain records from APIs, flat files, and databases',
