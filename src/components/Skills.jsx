@@ -16,6 +16,7 @@ const Skills = () => {
       title: 'Frameworks',
       items: [
         { name: 'React', certLink: null, certLabel: null },
+        { name: 'Flask', certLink: null, certLabel: null },
         { name: 'Streamlit', certLink: null, certLabel: null },
         { name: 'Node.js', certLink: null, certLabel: null },
         { name: 'Express.js', certLink: null, certLabel: null },
@@ -28,6 +29,8 @@ const Skills = () => {
       items: [
         { name: 'Agentic AI Design', certLink: 'https://drive.google.com/file/d/1C6XneRatv1e6qcV0pxae0B6kK79vtNIC/view?usp=sharing', certLabel: 'Hugging Face Certificate' },
         { name: 'Model Context Protocol', certLink: 'https://besa.techcreator.io/badge/srinivasusagml95104/677', certLabel: 'Badge' },
+        { name: 'RAG and Semantic Search', certLink: null, certLabel: null },
+        { name: 'Vector Embeddings (sentence-transformers)', certLink: null, certLabel: null },
         { name: 'LLM Hitting (Claude 4.5 Sonnet, Meta Llama 3.2)', certLink: null, certLabel: null },
         { name: 'Multi Agentic Orchestration', certLink: null, certLabel: null },
         { name: 'Prompt Design and Engineering for LLMs', certLink: null, certLabel: null }
@@ -55,7 +58,8 @@ const Skills = () => {
       title: 'Databases',
       items: [
         { name: 'SQL Server', certLink: null, certLabel: null },
-        { name: 'PostgreSQL', certLink: null, certLabel: null },
+        { name: 'PostgreSQL with pgvector extension', certLink: null, certLabel: null },
+        { name: 'Vector Databases with HNSW indexing', certLink: null, certLabel: null },
         { name: 'Oracle DB', certLink: null, certLabel: null },
         { name: 'MySQL', certLink: null, certLabel: null },
         { name: 'MongoDB', certLink: null, certLabel: null }

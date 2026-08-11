@@ -2,6 +2,14 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Astro Capstone: Agentic AI Assistant',
+      date: 'Apr 2026 - May 2026',
+      Label: 'GitHub Repo',
+      Link: 'https://github.com/SrinivasVssj/astro-capstone',
+      description: 'Built agentic AI assistant with RAG semantic search for personalized horoscope recommendations using 8 custom MCP tools, real-time REST APIs, and vector embeddings; orchestrated end-to-end ML infrastructure with scheduled Spark pipelines on Databricks',
+      tech: ['Python', 'Flask', 'PostgreSQL pgvector', 'sentence-transformers', 'MCP', 'PySpark', 'Databricks', 'REST APIs', 'HNSW indexing', 'ETL']
+    },
      {
       title: 'Automation Agent for Indeed Portal',
       date: 'Mar 2026 - Apr 2026',
